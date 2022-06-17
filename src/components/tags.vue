@@ -106,6 +106,6 @@
     cursor: pointer;
   }
   .jihuo{
-    background: red;
+    color: #fff;
   }
 </style>

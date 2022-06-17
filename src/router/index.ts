@@ -14,6 +14,7 @@ const routes:any = [
       // 判断是否需要登录
       denglu : true
     },
+    redirect:"/shouye",
     children:[
       {
         path:"/shouye",
@@ -24,6 +25,16 @@ const routes:any = [
         path:"/gerenzhongxin",
         name:"gerenzhongxin",
         component: ()=> import("../page/gerenzhongxin/gerenzhongxin.vue")
+      },
+      {
+        path:"/biaoge",
+        name:"biaoge",
+        component: ()=> import("../page/biaoge/biaoge.vue")
+      },
+      {
+        path:"/tab",
+        name:"tab",
+        component:()=> import("../page/tab/tab.vue")
       }
     ]
   },

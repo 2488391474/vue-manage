@@ -6,7 +6,9 @@
     </div>
     <div class="neiron">
       <Tags class="tag"></Tags>
-      <router-view></router-view>
+      <div class="view">
+        <router-view></router-view>
+      </div>
     </div>
   </div>
 </template>
@@ -14,16 +16,23 @@
   import Header from "../../components/header.vue"
   import Sidebar from "../../components/sidebar.vue"
   import Tags from "../../components/tags.vue"
-
 </script>
 <style scoped>
   .box {
     display: flex;
   }
-  .neiron{
+
+  .neiron {
     width: 100%;
   }
-  .tag{
+  .view{
+    width: 100%;
+    height: calc(100% - 100px);
+    overflow-y:auto;
+    overflow-x: hidden;
+  }
+
+  .tag {
     width: 100%;
     height: 43px;
     border-bottom: 2px solid #ccc;

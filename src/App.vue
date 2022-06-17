@@ -7,6 +7,11 @@ import {onMounted} from "vue"
 </template>
 
 <style>
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
 *{
   padding: 0px;
   margin: 0px;

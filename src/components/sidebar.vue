@@ -9,7 +9,7 @@
       </router-link>
     </el-menu-item>
     <el-menu-item index="2">
-      <router-link to="/shouye">
+      <router-link to="/biaoge">
         <el-icon :size="20">
           <IceCream />
         </el-icon>
@@ -17,7 +17,7 @@
       </router-link>
     </el-menu-item>
     <el-menu-item index="3">
-      <router-link to="/shouye">
+      <router-link to="/tab">
         <el-icon :size="20">
           <IceDrink />
         </el-icon>
